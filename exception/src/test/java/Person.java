@@ -19,4 +19,7 @@ public class Person {
     return age;
   }
 
+  public String toString(){
+    return "Student [ name: "+name+", age: "+ age+ " ]";
+  }
 }
